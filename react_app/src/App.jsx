@@ -18,7 +18,7 @@ export default function App() {
                             </p>
                         </div>
                         <button
-                            className="mx-auto px-12 py-5 text-xl font-semibold text-white bg-[#733fa3] rounded-xl shadow-lg transition-all duration-300 hover:bg-[#5f2f8a] hover:scale-105 active:scale-95">
+                            className="mx-auto px-12 py-5 text-xl font-semibold text-white bg-[#733fa3] rounded-xl shadow-lg transition-all duration-300 hover:bg-[#5f2f8a] hover:scale-105 active:scale-95 cursor-pointer">
                             Get Started
                         </button>
                     </div>
@@ -29,7 +29,7 @@ export default function App() {
             <div className="h-0 w-160 absolute top-1/5 right-0 shadow-[0_0_700px_20px_whitesmoke] -rotate-30 -z-10"/>
 
             <spline-viewer
-                className="fixed left-1/2 bottom-[-20%] -translate-x-1/2 scale-100 w-[150%] h-[150%] z-[1] opacity-[1] transition-opacity"
+                className="fixed left-1/2 bottom-[-20%] -translate-x-1/2 scale-100 w-[150%] h-[150%] z-1 opacity-[1] transition-opacity"
                 url="https://prod.spline.design/rxcaFLgFOZFi139E/scene.splinecode"
             />
         </>

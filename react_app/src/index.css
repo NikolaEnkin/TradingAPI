@@ -39,16 +39,18 @@ body {
 
 
 @keyframes cursor {
-    50% {border-color: transparent;}
-}
-
-@keyframes cursor {
   50% { border-color: transparent; }
 }
 
 @keyframes typing {
   from { width: 0; }
   to { width: 18ch; }
+}
+
+@keyframes animationGradient {
+    to {
+        background-position: 200% 0;
+    }
 }
 
 .animate-typing-cursor {
